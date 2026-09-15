@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+
+# Данные
+data/
+*.npy
+logs/
+*.log
+images/
+
+# Отчёты и артефакты
+performance_report.json
+screenshots/
+
+# Переменные окружения
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# ОС
+.DS_Store
+Thumbs.db
