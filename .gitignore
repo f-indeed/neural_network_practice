@@ -1,28 +1,53 @@
-# Python
+# ========== Python ==========
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
 *.egg-info/
+.eggs/
+dist/
+build/
+
+# ========== Виртуальные окружения ==========
 venv/
 env/
+ENV/
+.venv/
 
-# Данные
-data/
+# ========== Артефакты нейросети ==========
+weights.json
 *.npy
-logs/
+*.npz
+*.pkl
+checkpoint*
+*.h5
+*.ckpt
+
+# ========== Данные ==========
 *.log
-images/
+data/output/*
+!data/output/.gitkeep
+# data/input — коммитим, там тестовые данные
 
-# Отчёты и артефакты
+# ========== Отчёты ==========
 performance_report.json
-screenshots/
+*.docx
+*.pdf
+!README.md
 
-# Переменные окружения
+# ========== Переменные окружения ==========
 .env
+.env.local
+.env.*.local
 
-# IDE
+# ========== IDE ==========
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# ОС
+# ========== ОС ==========
 .DS_Store
 Thumbs.db
+desktop.ini
